@@ -1,3 +1,4 @@
+# 接口说明
 api 基地址：http://www.xbjsq.com
 验证码：/e/ShowKey/?v=reg 
 注册接口：/e/member/doaction.php
