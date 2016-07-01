@@ -1,0 +1,11 @@
+验证码：http://www.xbjsq.com/e/ShowKey/?v=reg 
+注册接口：
+www.xbjsq.com/e/member/doaction.php
+username=
+password=
+repassword=
+email=
+key=
+enews=register
+groupid=5
+tobind=0
