@@ -1,7 +1,10 @@
 # 接口说明
 api 基地址：http://www.xbjsq.com
 
-##注册接口
+###返回内容获取JQuery
+selector: body > table > tbody > tr:nth-child(2) > td > div > b
+
+###注册接口
 | 说明        |  value | 
 | ------------- |-------------|
 | Method     |  POST  |
@@ -21,7 +24,7 @@ api 基地址：http://www.xbjsq.com
 | groupid      | 5 | 固定值 |
 | tobind      | 0 | 固定值 |
 
-##登录接口
+###登录接口
 | 说明        |  value | 
 | ------------- |-------------|
 | Method     |  POST  |
@@ -39,7 +42,7 @@ api 基地址：http://www.xbjsq.com
 | enews      | login | 固定值 |
 | tobind      | 0 | 固定值 |
 
-##退出接口
+###退出接口
 默认带 Cookie 请求
 
 | 说明        |  value | 
