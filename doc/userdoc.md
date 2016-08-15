@@ -1,51 +1,63 @@
-# ½Ó¿ÚËµÃ÷
-api »ùµØÖ·£ºhttp://www.xbjsq.com
+# æ¥å£è¯´æ˜
+api åŸºåœ°å€ï¼šhttp://www.xbjsq.com
 
-###·µ»ØÄÚÈİ»ñÈ¡JQuery
+###è¿”å›å†…å®¹è·å–JQuery
 selector: body > table > tbody > tr:nth-child(2) > td > div > b
 
-###×¢²á½Ó¿Ú
-| ËµÃ÷        |  value | 
+###æ‰‹æœºéªŒè¯ç æ¥å£ï¼ˆæ³¨å†Œï¼‰
+| key        |  default value |  Description |
+| ------------- |-------------|-------------|
+| enews | Rzsj | è®¤è¯æ‰‹æœº |
+| phone | 185xxxx1953 | æ‰‹æœºå· |
+
+###æ‰‹æœºéªŒè¯ç æ¥å£ï¼ˆå–å›å¯†ç ï¼‰
+| key        |  default value |  Description |
+| ------------- |-------------|-------------|
+| enews | Rzsjq | è®¤è¯æ‰‹æœºå–å› |
+| phone | 185xxxx1953 | æ‰‹æœºå· |
+
+###æ³¨å†Œæ¥å£
+| è¯´æ˜        |  value | 
 | ------------- |-------------|
 | Method     |  POST  |
 | URL     |  /e/member/doaction.php  |
-| ÑéÖ¤Âë»ñÈ¡µØÖ· | /e/ShowKey/?v=reg |
+| éªŒè¯ç è·å–åœ°å€ | /e/ShowKey/?v=reg |
 
-ÇëÇó²ÎÊı
+è¯·æ±‚å‚æ•°
 
 | key        | default value           | Description  |
 | ------------- |:-------------:| -----:|
-| username     |  - | ÓÃ»§Ãû |
-| password      |  - | ÃÜÂë |
-| repassword     | -  | È·ÈÏÃÜÂë |
+| username     |  - | ç”¨æˆ·å |
+| password      |  - | å¯†ç  |
+| repassword     | -  | ç¡®è®¤å¯†ç  |
 | email      | - | email |
-| key     | - | ÑéÖ¤Âë |
-| enews      | register | ¹Ì¶¨Öµ |
-| groupid      | 5 | ¹Ì¶¨Öµ |
-| tobind      | 0 | ¹Ì¶¨Öµ |
+| key     | - | éªŒè¯ç  |
+| enews      | register | å›ºå®šå€¼ |
+| groupid      | 5 | å›ºå®šå€¼ |
+| tobind      | 0 | å›ºå®šå€¼ |
 
-###µÇÂ¼½Ó¿Ú
-| ËµÃ÷        |  value | 
+###ç™»å½•æ¥å£
+| è¯´æ˜        |  value | 
 | ------------- |-------------|
 | Method     |  POST  |
 | URL     |  /e/member/doaction.php  |
-| ÑéÖ¤Âë»ñÈ¡µØÖ· | e/ShowKey/?v=login&t=`<random>` |
+| éªŒè¯ç è·å–åœ°å€ | e/ShowKey/?v=login&t=`<random>` |
 
-ÇëÇó²ÎÊı
+è¯·æ±‚å‚æ•°
 
 | key        | default value           | Description  |
 | ------------- |:-------------:| -----:|
-| username     |  - | ÓÃ»§Ãû |
-| password      |  - | ÃÜÂë |
-| key     | - | ÑéÖ¤Âë |
-| lifetime      | 0 | cookie ±£´æÊ±Ğ§ |
-| enews      | login | ¹Ì¶¨Öµ |
-| tobind      | 0 | ¹Ì¶¨Öµ |
+| username     |  - | ç”¨æˆ·å |
+| password      |  - | å¯†ç  |
+| key     | - | éªŒè¯ç  |
+| lifetime      | 0 | cookie ä¿å­˜æ—¶æ•ˆ |
+| enews      | login | å›ºå®šå€¼ |
+| tobind      | 0 | å›ºå®šå€¼ |
 
-###ÍË³ö½Ó¿Ú
-Ä¬ÈÏ´ø Cookie ÇëÇó
+###é€€å‡ºæ¥å£
+é»˜è®¤å¸¦ Cookie è¯·æ±‚
 
-| ËµÃ÷        |  value | 
+| è¯´æ˜        |  value | 
 | ------------- |-------------|
 | Method     |  GET  |
 | URL     |  /e/member/doaction.php?enews=exit  |
